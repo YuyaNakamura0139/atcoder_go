@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"math/big"
 	"os"
 	"sort"
@@ -18,7 +19,7 @@ func init() {
 }
 
 func main() {
-	StrToInt(NextLine(sc))
+
 }
 
 // Reverse 文字列を反転
@@ -32,7 +33,8 @@ func Reverse(s string) string {
 
 // NextLine buinfo.Scanのポインタを渡し、標準入力の次の行を読み込み
 // ex. sc := buinfo.NewScanner(os.stdin)
-//      GetNextLine(sc)
+//
+//	GetNextLine(sc)
 func NextLine(sc *bufio.Scanner) string {
 	sc.Scan()
 	s := sc.Text()
