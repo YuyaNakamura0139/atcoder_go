@@ -1,2 +1,3 @@
-abc*/
-abs*/
+# コンテスト名/*/test/* でmain.goだけ追跡できる
+abs*/*/test/*
+contest.acc.json
